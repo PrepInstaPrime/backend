@@ -1,0 +1,22 @@
+{
+  "name": "day7",
+  "version": "1.0.0",
+  "description": "this is lecture app where we will create restful api",
+  "license": "MIT",
+  "author": "pma",
+  "type": "commonjs",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs",
+    "dev":"nodemon index.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
